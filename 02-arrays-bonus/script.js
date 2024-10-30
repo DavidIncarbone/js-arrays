@@ -23,8 +23,6 @@ const longNames = teachers.filter(teacher => teacher.length >= 5);
 console.log(longNames);
 
 
-
-
 // 3. Rimuovi 'Ed' dall'array teachers
 
 let teacherEd = teachers.indexOf("Ed");
