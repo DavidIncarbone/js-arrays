@@ -1,3 +1,6 @@
+"use strict";
+console.clear();
+
 const teachers = [
   'Nathan',
   'Ed',
