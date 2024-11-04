@@ -85,4 +85,13 @@ console.log(teachersString);
 const isTeachersEmpty = !teachers.length;
 console.log(isTeachersEmpty);
 
+// 11. stampare per ogni insegnante in console la frase:
+// [nome insegnante] è l'insegnante in posizione [i]
+
+for (let i = 0; i < teachers.length; i++) {
+
+  console.log(`${teachers[i]} è l'insegnante in posizione ${i + 1}`);
+
+}
+
 
